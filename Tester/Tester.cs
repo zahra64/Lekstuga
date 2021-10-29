@@ -56,6 +56,13 @@ namespace Tester
         Assert.Equal(expected:"mina", actual: name);
     }
 
+    [Fact]
+    public void Test4()
+    {
+
+        Assert.Contains(string.Empty, "");
+    }
+
     }
     
 }
