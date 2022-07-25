@@ -12,16 +12,14 @@ namespace Tester
         {
             Assert.True(true);
         }
+
+
     
 
-    [Fact]
-    public void testvariable()
-    {
-    /*bool container = true;
-     container = false;
-            Assert.True(container);*/
-
-    string name = "zara";
+        [Fact]
+        public void testif()
+        {
+            string name = "zara";
             /*if (false)
             {
                  name = "maro";
@@ -33,38 +31,49 @@ namespace Tester
             {
                 name = "maro";
             }
+
             Assert.Equal(expected: "zara", actual: name);
 
-    }
-
-    [Fact]
-
-    public void Test3()
-    {
-        string name;
-
-        bool lever = true;
-        
-        if(lever)
-        {
-            name = "mina";
         }
 
-        else
-            name = "ziba";
+        [Fact]
 
-        Assert.Equal(expected:"mina", actual: name);
+        public void Test3()
+        {
+            string name;
+
+            bool lever = true;
+
+            if (lever)
+            {
+                name = "mina";
+            }
+
+            else
+                name = "ziba";
+
+            Assert.Equal(expected: "mina", actual: name);
+        }
+
+        [Fact]
+        public void Test4()
+        {
+
+            // Assert.Contains(string.Empty, "");
+            bool za = true;
+         //   za = false;
+            Assert.True(za);
+        }
+
+
+
+        [Fact]
+        public void test5()
+        {
+         //   Assert.True("jag har 29" + 29 == "jag har 29");
+         Assert.Equal(5, 2+3);
+        }
     }
-
-    [Fact]
-    public void Test4()
-    {
-
-        Assert.Contains(string.Empty, "");
-    }
-
-    }
-    
 }
 
 
