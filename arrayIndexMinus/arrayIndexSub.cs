@@ -63,5 +63,7 @@ namespace t1
         //return arr.Any() ? arr.Max() - arr.Min() : 0;
 
         // return arr.Length > 1 ? arr.Max() - arr.Min() : 0;
+
+        // return x.Select(e => e * 2).ToArray();
     }
 }
